@@ -770,11 +770,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\RiderProjects\\HardwareGenius\\Core\\Service\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\User\\RiderProjects\\HardwareGenius\\Core\\Service\\Services.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service\\Services.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\RiderProjects\\HardwareGenius\\Core\\Service\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -795,11 +795,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\User\\RiderProjects\\HardwareGenius\\Core\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\User\\RiderProjects\\HardwareGenius\\Core\\Domain\\Domain.csproj"
+            "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\User\\RiderProjects\\HardwareGenius\\Core\\Service.Contracts\\Service.Contracts.csproj": {
-              "projectPath": "C:\\Users\\User\\RiderProjects\\HardwareGenius\\Core\\Service.Contracts\\Service.Contracts.csproj"
+            "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service.Contracts\\Service.Contracts.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service.Contracts\\Service.Contracts.csproj"
             }
           }
         }
