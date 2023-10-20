@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Web\\Web.csproj": {}
+    "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Domain\\Domain.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Shared1\\Shared.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Shared1\\Shared.csproj"
+              "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Shared1\\Shared.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Shared1\\Shared.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service.Contracts\\Service.Contracts.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Service.Contracts\\Service.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service.Contracts\\Service.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Service.Contracts\\Service.Contracts.csproj",
         "projectName": "Service.Contracts",
-        "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service.Contracts\\Service.Contracts.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Service.Contracts\\Service.Contracts.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Service.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,11 +113,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Domain\\Domain.csproj"
+              "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Shared1\\Shared.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Shared1\\Shared.csproj"
+              "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Shared1\\Shared.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Shared1\\Shared.csproj"
               }
             }
           }
@@ -173,14 +173,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service\\Services.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Service\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Service\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service\\Services.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Service\\Services.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -201,11 +201,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Domain\\Domain.csproj"
+              "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service.Contracts\\Service.Contracts.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service.Contracts\\Service.Contracts.csproj"
+              "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Service.Contracts\\Service.Contracts.csproj"
               }
             }
           }
@@ -261,14 +261,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Shared1\\Shared.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Shared1\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Shared1\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Shared1\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Shared1\\Shared.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Shared1\\Shared.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Shared1\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Shared1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -338,14 +338,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Infrastructure\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Infrastructure\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Infrastructure\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Infrastructure\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Infrastructure\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Infrastructure\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Infrastructure\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Infrastructure\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -366,8 +366,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Domain\\Domain.csproj"
+              "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Domain\\Domain.csproj"
               }
             }
           }
@@ -423,14 +423,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Web\\Web.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Web\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -451,20 +451,20 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Domain\\Domain.csproj"
+              "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service.Contracts\\Service.Contracts.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service.Contracts\\Service.Contracts.csproj"
+              "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Service.Contracts\\Service.Contracts.csproj"
               },
-              "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service\\Services.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Service\\Services.csproj"
+              "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Service\\Services.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Service\\Services.csproj"
               },
-              "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Shared1\\Shared.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Core\\Shared1\\Shared.csproj"
+              "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Shared1\\Shared.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Core\\Shared1\\Shared.csproj"
               },
-              "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Infrastructure\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\HarwareGenuis-main\\Infrastructure\\Persistence\\Persistence.csproj"
+              "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Infrastructure\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\HarwareGenuis\\Infrastructure\\Persistence\\Persistence.csproj"
               }
             }
           }
