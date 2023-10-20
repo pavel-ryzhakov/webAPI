@@ -8,7 +8,7 @@ namespace Web
     {
         public MappingProfile() 
         { 
-            CreateMap<GraphicCard, GraphicCardDto>().ForCtorParam("FullModel", opt => opt.MapFrom(x => string.Join(' ', x.Manufacture, x.GpuName)));
+            CreateMap<GraphicCard, GraphicCardDto>().ForCtorParam("FullModel", opt => opt.MapFrom(x => string.Join(' ', x.Manufacture, x.Power)));
             CreateMap<Processor, ProcessorDto>().ForCtorParam("FullModel", opt => opt.MapFrom(x => string.Join(' ', x.Manufacture, x.Model)));
         }
     }

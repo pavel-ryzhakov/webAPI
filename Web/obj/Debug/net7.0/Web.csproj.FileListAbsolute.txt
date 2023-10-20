@@ -154,3 +154,4 @@ C:\Users\User\Desktop\HarwareGenuis-main\Web\obj\Debug\net7.0\refint\Web.dll
 C:\Users\User\Desktop\HarwareGenuis-main\Web\obj\Debug\net7.0\Web.pdb
 C:\Users\User\Desktop\HarwareGenuis-main\Web\obj\Debug\net7.0\Web.genruntimeconfig.cache
 C:\Users\User\Desktop\HarwareGenuis-main\Web\obj\Debug\net7.0\ref\Web.dll
+C:\Users\User\Desktop\HarwareGenuis-main\Web\bin\Debug\net7.0\System.Linq.Dynamic.Core.dll

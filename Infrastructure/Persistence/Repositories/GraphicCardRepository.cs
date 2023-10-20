@@ -17,8 +17,9 @@ namespace Persistence.Repositories
                 trackChanges)
                 .FilterProduct(productParameters.MinPrice, productParameters.MaxPrice)
                 .Search(productParameters.SearchTerm)
-            .OrderBy(c => c.Id)
+            //.OrderBy(c => c.Id)
             //.Skip((productParameters.PageNumber - 1) * productParameters.PageSize)
+            .Sort(productParameters.OrderBy)
             //.Take(productParameters.PageSize)
             .ToListAsync();
 

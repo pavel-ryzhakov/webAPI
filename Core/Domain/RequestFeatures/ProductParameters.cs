@@ -2,6 +2,7 @@
 {
     public class ProductParameters : RequestParameters
     {
+        public ProductParameters() => OrderBy = "power";
         public uint MinPrice { get; set; } 
         public uint MaxPrice { get; set; } = int.MaxValue; 
         public bool ValidPriceRange => MaxPrice > MinPrice;

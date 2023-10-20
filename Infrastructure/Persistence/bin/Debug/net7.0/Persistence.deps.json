@@ -12,7 +12,8 @@
           "Microsoft.EntityFrameworkCore": "7.0.12",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
-          "NLog": "5.2.5"
+          "NLog": "5.2.5",
+          "System.Linq.Dynamic.Core": "1.3.5"
         },
         "runtime": {
           "Persistence.dll": {}
@@ -137,6 +138,14 @@
           }
         }
       },
+      "System.Linq.Dynamic.Core/1.3.5": {
+        "runtime": {
+          "lib/net7.0/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.3.5.0",
+            "fileVersion": "1.3.5.0"
+          }
+        }
+      },
       "Domain/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.12",
@@ -251,6 +260,13 @@
       "sha512": "sha512-mMXtbAxfNzqkXcBjhJ3wN3rH7kwUZ0JL0GrUBI/lso7+tQ/HC4e5SnlmR3R5qQ9zWbqMbjxeH37rIf0yQGWTiA==",
       "path": "nlog/5.2.5",
       "hashPath": "nlog.5.2.5.nupkg.sha512"
+    },
+    "System.Linq.Dynamic.Core/1.3.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G8aRAVHSQ/Jmt6dekX+z4K3L6ecX3CizaIYSQoDUolPRIPBYmBCabT+/pq5fMAFM57aOchFn8PUufuVfLjvEZQ==",
+      "path": "system.linq.dynamic.core/1.3.5",
+      "hashPath": "system.linq.dynamic.core.1.3.5.nupkg.sha512"
     },
     "Domain/1.0.0": {
       "type": "project",
