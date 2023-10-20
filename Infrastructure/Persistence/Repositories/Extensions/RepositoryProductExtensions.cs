@@ -8,6 +8,7 @@ namespace Persistence.Repositories.Extensions
 {
     public static class RepositoryProductExtensions
     {
+    
         public static IQueryable<GraphicCard> FilterProduct(this IQueryable<GraphicCard> graphicCards, uint minPrice, uint maxPrice) =>
             graphicCards.Where(e => (e.Price >= minPrice && e.Price <= maxPrice));
         public static IQueryable<GraphicCard> Search(this IQueryable<GraphicCard> graphicCards,
@@ -26,6 +27,7 @@ namespace Persistence.Repositories.Extensions
             if (string.IsNullOrWhiteSpace(orderQuery))
                 return graphicCards.OrderBy(e => e.Manufacture).ThenBy(o => o.Price); 
             return graphicCards.OrderBy(orderQuery);
+            
         }
     }
 }

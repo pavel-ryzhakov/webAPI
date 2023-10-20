@@ -19,7 +19,7 @@ namespace Persistence.Repositories
                 .FilterProduct(productParameters.MinPrice, productParameters.MaxPrice)
                 .Search(productParameters.SearchTerm)
                 .Sort(productParameters.OrderBy)
-                .CountAsync();
+                .AsNoTracking().CountAsync();
 
 
             var graphicCards = await FindByCondition(e => e.Price >= productParameters.MinPrice && e.Price <= productParameters.MaxPrice,
@@ -30,7 +30,7 @@ namespace Persistence.Repositories
             .Sort(productParameters.OrderBy)
             .Skip((productParameters.PageNumber - 1) * productParameters.PageSize)           
             .Take(productParameters.PageSize)
-            .ToListAsync();
+            .AsNoTracking().ToListAsync();
             
             return new PagedList<GraphicCard> (graphicCards, count, productParameters.PageNumber, productParameters.PageSize);
             //return  PagedList<GraphicCard>.ToPagedList(graphicCards, productParameters.PageNumber, productParameters.PageSize);
