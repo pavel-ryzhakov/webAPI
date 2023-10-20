@@ -1,5 +1,8 @@
 using Microsoft.AspNetCore.HttpOverrides;
+using Service.Contracts;
+using Services.DataShaping;
 using Services.LoggerService;
+using Shared.DataTransferObjects;
 using Web.Extentions;
 
 namespace Web
@@ -27,7 +30,8 @@ namespace Web
             builder.Services.ConfigureIISIntegration();
             builder.Services.ConfigureRepositoryManager();
             builder.Services.ConfigureServiceManager();
-            
+            builder.Services.AddScoped<IDataShaper<GraphicCardDto>, DataShaper<GraphicCardDto>>();
+
 
 
 

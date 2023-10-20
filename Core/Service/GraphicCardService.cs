@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using System.Dynamic;
+using AutoMapper;
 using Shared.DataTransferObjects;
 using Services.LoggerService;
 using Service.Contracts;
@@ -13,20 +14,26 @@ namespace Services
         private readonly IRepositoryManager _repository;
         private readonly IMapper _mapper;
         private readonly ILoggerManager _logger;
-        public GraphicCardService(IRepositoryManager repository, ILoggerManager logger, IMapper mapper)
+        private readonly IDataShaper<GraphicCardDto> _dataShaper;
+        public GraphicCardService(IRepositoryManager repository, ILoggerManager logger, IMapper mapper,IDataShaper<GraphicCardDto> dataShaper)
         {
             _repository = repository;
             _logger = logger;
             _mapper = mapper;
+            _dataShaper = dataShaper;
         }
 
-        public async Task<(IEnumerable<GraphicCardDto> graphicCards, MetaData metaData)> GetAllGraphicCardsAsync(ProductParameters productParameters, bool trackChanges)
+        public async Task<(IEnumerable<ExpandoObject> graphicCards, MetaData metaData)>
+            GetAllGraphicCardsAsync(ProductParameters productParameters, bool trackChanges)
         {
             if (!productParameters.ValidPriceRange) throw new MaxPriceRangeBadRequestException();
-            var graphicCardsWithMetaData = await _repository.GraphicCard.GetAllGraphicCardsAsync(productParameters, trackChanges);
+            var graphicCardsWithMetaData = await _repository.GraphicCard
+                .GetAllGraphicCardsAsync(productParameters, trackChanges);
             var graphicCardsDto = _mapper.Map<IEnumerable<GraphicCardDto>>(graphicCardsWithMetaData);
-            return (graphicCards: graphicCardsDto, metaData: graphicCardsWithMetaData.MetaData);
+            var shapedData = _dataShaper.ShapeData(graphicCardsDto, productParameters.Fields);
+            return (graphicCards: shapedData, metaData: graphicCardsWithMetaData.MetaData);
         }
+
         public async Task<GraphicCardDto> GetGraphicCardAsync(int id, bool trackChanges)
         {
             var graphicCard = await _repository.GraphicCard.GetGraphicCardAsync(id, trackChanges) ?? throw new ProductNotFoundException(id);
