@@ -1,5 +1,5 @@
 ﻿namespace Shared.DataTransferObjects
 {
-    public record GraphicCardDto(int Id, string FullModel, string Price);
+    public record GraphicCardDto(int Id, string FullModel, int Power, string VramType, string Vram, string Price);
     
 }
