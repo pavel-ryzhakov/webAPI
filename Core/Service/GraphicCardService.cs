@@ -22,6 +22,7 @@ namespace Services
 
         public async Task<(IEnumerable<GraphicCardDto> graphicCards, MetaData metaData)> GetAllGraphicCardsAsync(ProductParameters productParameters, bool trackChanges)
         {
+            if (!productParameters.ValidPriceRange) throw new MaxPriceRangeBadRequestException();
             var graphicCardsWithMetaData = await _repository.GraphicCard.GetAllGraphicCardsAsync(productParameters, trackChanges);
             var graphicCardsDto = _mapper.Map<IEnumerable<GraphicCardDto>>(graphicCardsWithMetaData);
             return (graphicCards: graphicCardsDto, metaData: graphicCardsWithMetaData.MetaData);

@@ -3,6 +3,7 @@ using Domain.Entities;
 using Domain.Repositories;
 using Domain.RequestFeatures;
 using Microsoft.EntityFrameworkCore;
+using Persistence.Repositories.Extensions;
 
 namespace Persistence.Repositories
 {
@@ -12,15 +13,19 @@ namespace Persistence.Repositories
 
         public async Task<PagedList<GraphicCard>> GetAllGraphicCardsAsync(ProductParameters productParameters, bool trackChanges)
         {
-            var graphicCards = await FindAll(trackChanges)
+            var graphicCards = await FindByCondition(e => e.Price >= productParameters.MinPrice && e.Price <= productParameters.MaxPrice,
+                trackChanges)
+                .FilterProduct(productParameters.MinPrice, productParameters.MaxPrice)
+                .Search(productParameters.SearchTerm)
             .OrderBy(c => c.Id)
-            .Skip((productParameters.PageNumber - 1) * productParameters.PageSize)
-            .Take(productParameters.PageSize)
+            //.Skip((productParameters.PageNumber - 1) * productParameters.PageSize)
+            //.Take(productParameters.PageSize)
             .ToListAsync();
 
-            var count = await FindAll(trackChanges).CountAsync();
+            //var count = await FindAll(trackChanges).CountAsync();
 
-            return new PagedList<GraphicCard> (graphicCards, count, productParameters.PageNumber, productParameters.PageSize);
+            //return new PagedList<GraphicCard> (graphicCards, count, productParameters.PageNumber, productParameters.PageSize);
+            return PagedList<GraphicCard>.ToPagedList(graphicCards, productParameters.PageNumber, productParameters.PageSize);
                 
         }
            
