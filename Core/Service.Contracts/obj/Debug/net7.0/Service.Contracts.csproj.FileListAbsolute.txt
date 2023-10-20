@@ -15,20 +15,20 @@ C:\Users\User\RiderProjects\HardwareGenius\Core\Service.Contracts\obj\Debug\net7
 C:\Users\User\RiderProjects\HardwareGenius\Core\Service.Contracts\obj\Debug\net7.0\refint\Service.Contracts.dll
 C:\Users\User\RiderProjects\HardwareGenius\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.pdb
 C:\Users\User\RiderProjects\HardwareGenius\Core\Service.Contracts\obj\Debug\net7.0\ref\Service.Contracts.dll
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\bin\Debug\net7.0\Service.Contracts.deps.json
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\bin\Debug\net7.0\Service.Contracts.dll
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\bin\Debug\net7.0\Service.Contracts.pdb
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\bin\Debug\net7.0\Domain.dll
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\bin\Debug\net7.0\Shared.dll
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\bin\Debug\net7.0\Domain.pdb
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\bin\Debug\net7.0\Shared.pdb
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.AssemblyInfoInputs.cache
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.AssemblyInfo.cs
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.csproj.CopyComplete
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.dll
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\refint\Service.Contracts.dll
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.pdb
-C:\Users\User\Desktop\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\ref\Service.Contracts.dll
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\bin\Debug\net7.0\Service.Contracts.deps.json
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\bin\Debug\net7.0\Service.Contracts.dll
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\bin\Debug\net7.0\Service.Contracts.pdb
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\bin\Debug\net7.0\Domain.dll
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\bin\Debug\net7.0\Shared.dll
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\bin\Debug\net7.0\Domain.pdb
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\bin\Debug\net7.0\Shared.pdb
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.AssemblyInfo.cs
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.csproj.CopyComplete
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.dll
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\refint\Service.Contracts.dll
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\Service.Contracts.pdb
+C:\Users\User\Desktop\dev office\HarwareGenuis-main\Core\Service.Contracts\obj\Debug\net7.0\ref\Service.Contracts.dll
